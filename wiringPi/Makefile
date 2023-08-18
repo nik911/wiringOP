@@ -134,7 +134,6 @@ SRC	=	wiringPi.c						\
 		sn3218.c						\
 		bmp180.c htu21d.c ds18b20.c rht03.c			\
 		drcSerial.c drcNet.c					\
-		pseudoPins.c						\
 		wpiExtensions.c 					\
 		w25q64.c						\
 		oled.c OrangePi.c
