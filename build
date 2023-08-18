@@ -72,7 +72,7 @@ select_boards()
 		"orangepilite2"
 		"orangepioneplus"
 		"orangepi4"
-    		"orangepi4-lts"
+    "orangepi4-lts"
 		"orangepirk3399"
 		"orangepi800"
 		"orangepizero2"
@@ -213,6 +213,8 @@ if [ x$1 != "x" ]; then
 fi
 
   #select_boards
+
+  export BOARD="orangepi4-lts"
 
   echo "wiringPi Build script"
   echo "====================="
