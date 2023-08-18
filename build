@@ -241,7 +241,7 @@ fi
   echo
   echo "WiringPi Library"
   cd wiringPi
-  #$sudo make uninstall
+  $sudo make uninstall
   if [ x$1 = "xstatic" ]; then
     make -j5 static
     check_make_ok
@@ -249,7 +249,7 @@ fi
   else
     make -j5
     check_make_ok
-    sudo make install
+    $sudo make install
   fi
   check_make_ok
 
