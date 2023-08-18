@@ -249,7 +249,7 @@ fi
   else
     make -j5
     check_make_ok
-    $sudo make install
+    sudo make install
   fi
   check_make_ok
 
